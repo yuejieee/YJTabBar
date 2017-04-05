@@ -51,7 +51,7 @@
 }
 
 - (void)selectCenterBtn:(UIButton *)button {
-    NSLog(@"testCenterButton");
+    [[[UIAlertView alloc] initWithTitle:@"Test" message:@"Test" delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil] show];
 }
 
 - (void)didReceiveMemoryWarning {
